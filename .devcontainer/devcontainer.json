@@ -17,7 +17,9 @@
 	],
 	// Enable plotting.
 	"mounts": [
-		"type=bind,source=/tmp/.X11-unix,target=/tmp/.X11-unix"
+		"type=bind,source=/tmp/.X11-unix,target=/tmp/.X11-unix",
+		"type=bind,source=/volatile,target=/volatile",
+		"type=bind,source=/neurospin,target=/neurospin"
 	],
 	// Enable plotting.
 	"containerEnv": {
